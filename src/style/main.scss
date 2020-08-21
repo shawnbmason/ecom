@@ -8,7 +8,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'montserrat';
+    // font-family: 'montserrat';
 }
 
 body {
@@ -19,6 +19,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     -webkit-tap-highlight-color: transparent;
+    background-color: grey;
 }
 
 .app {
@@ -26,3 +27,6 @@ body {
     display: grid;
     justify-items: center;
 }
+
+@import 'layout';
+@import 'headernavbar';
