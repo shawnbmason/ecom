@@ -8,25 +8,14 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    // font-family: 'montserrat';
 }
 
 body {
-    overflow-x: hidden;
-    font-weight: normal;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
     background-color: grey;
 }
 
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
-}
 
 @import 'layout';
 @import 'headernavbar';
+@import 'auth/signin';
+@import 'auth/signup';
