@@ -16,7 +16,12 @@
     & > * {
       text-decoration: underline;
     }
-    &:hover {
+
+    .details__item {
+      text-decoration-line: none;
+    }
+
+    a:hover{
       cursor: pointer;
     }
   }
