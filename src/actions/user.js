@@ -8,13 +8,91 @@ export function fetchUserPurchases() {
     payload: [
       {
         _id: 0,
-        title: 'purchase 1',
-        amount: 8.02
+        total: 8.02,
+        orderNumber: 'A004890012',
+        orderDate: new Date(),
+        creditCard: '-0000',
+        user: {
+          name: 'Bobby Wilson',
+          shippingAddress: '1234 West State Street'
+        }
       },
       {
         _id: 1,
-        title: 'purchase 2',
-        amount: 19.25
+        total: 42.42,
+        orderNumber: 'SUIO909809',
+        orderDate: new Date(),
+        creditCard: '-0000',
+        user: {
+          name: 'James Brown',
+          shippingAddress: '156 East Oak Drive'
+        }
+      },
+      {
+        _id: 2,
+        total: 5.27,
+        orderNumber: 'YETR908987',
+        orderDate: new Date(),
+        creditCard: '-0000',
+        user: {
+          name: 'John Black',
+          shippingAddress: '486 Pine Street'
+        }
+      },
+      {
+        _id: 3,
+        total: 18.23,
+        orderNumber: 'BNAS809809',
+        orderDate: new Date(),
+        creditCard: '-0000',
+        user: {
+          name: 'Robert Red',
+          shippingAddress: '954 Cedar Street'
+        }
+      },
+      {
+        _id: 4,
+        total: 25.65,
+        orderNumber: 'MKIJE98980',
+        orderDate: new Date(),
+        creditCard: '-0000',
+        user: {
+          name: 'Susan White',
+          shippingAddress: '782 Fir Wood Ave'
+        }
+      },
+      {
+        _id: 5,
+        total: 56.45,
+        orderNumber: 'UEKJLA980989',
+        orderDate: new Date(),
+        creditCard: '-0000',
+        user: {
+          name: 'Nancy Grey',
+          shippingAddress: '3546 Redwood Ave'
+        }
+      },
+      {
+        _id: 6,
+        total: 19.34,
+        orderNumber: 'JEUJNA098908',
+        orderDate: new Date(),
+        creditCard: '-0000',
+        user: {
+          name: 'Thomas Ash',
+          shippingAddress: '48952 Birch Ash Drive'
+        }
+      },
+      {
+        _id: 7,
+        total: 12.95,
+        orderNumber: 'PAOEN89789',
+        orderDate: new Date(),
+        creditCard: '-0000',
+        user: {
+          name: 'Jennifer Green',
+          shippingAddress: '45698 Cherry Maple Ave'
+        }
       }
     ]
   })
