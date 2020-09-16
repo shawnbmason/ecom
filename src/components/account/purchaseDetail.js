@@ -15,7 +15,10 @@ class PurchaseDetail extends Component {
   render() {
     const { className, orderNumber, orderDate, user, total, creditCard } = this.props;
     const { name, shippingAddress } = user;
-    const nameAddress = `${name}--------- ${shippingAddress}`
+    // const nameAddress = `${name}  ${shippingAddress}`;
+    let nameAddress = name.split('\n').map(i => {
+      return <p>{i}</p>
+    });
 
     return (
       <div className={`${className} purchase-detail`}>

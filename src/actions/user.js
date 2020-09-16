@@ -21,8 +21,9 @@ export function fetchUserPurchases() {
         orderDate: new Date().toDateString(),
         creditCard: '-0000',
         user: {
-          name: 'Bobby Wilson',
-          shippingAddress: '1234 West State Street'
+          name: 'Bobby Wilson \n 1234 West State Street',
+          // name: 'Bobby Wilson',
+          // shippingAddress: '1234 West State Street'
         }
       },
       {
@@ -32,8 +33,9 @@ export function fetchUserPurchases() {
         orderDate: new Date().toDateString(),
         creditCard: '-0000',
         user: {
-          name: 'James Brown',
-          shippingAddress: '156 East Oak Drive'
+          name: 'James Brown \n 156 East Oak Drive',
+        //   name: 'James Brown',
+        //   shippingAddress: '156 East Oak Drive'
         }
       },
       {
@@ -43,8 +45,9 @@ export function fetchUserPurchases() {
         orderDate: new Date().toDateString(),
         creditCard: '-0000',
         user: {
-          name: 'John Black',
-          shippingAddress: '486 Pine Street'
+          name: 'John Black \n 486 Pine Street',
+          // name: 'John Black',
+          // shippingAddress: '486 Pine Street'
         }
       },
       {
@@ -54,8 +57,9 @@ export function fetchUserPurchases() {
         orderDate: new Date().toDateString(),
         creditCard: '-0000',
         user: {
-          name: 'Robert Red',
-          shippingAddress: '954 Cedar Street'
+          name: 'Robert Red \n 954 Cedar Street',
+          // name: 'Robert Red',
+          // shippingAddress: '954 Cedar Street'
         }
       },
       {
@@ -65,8 +69,9 @@ export function fetchUserPurchases() {
         orderDate: new Date().toDateString(),
         creditCard: '-0000',
         user: {
-          name: 'Susan White',
-          shippingAddress: '782 Fir Wood Ave'
+          name: 'Susan White \n 782 Fir Wood Ave',
+          // name: 'Susan White',
+          // shippingAddress: '782 Fir Wood Ave'
         }
       },
       {
@@ -76,8 +81,9 @@ export function fetchUserPurchases() {
         orderDate: new Date().toDateString(),
         creditCard: '-0000',
         user: {
-          name: 'Nancy Grey',
-          shippingAddress: '3546 Redwood Ave'
+          name: 'Nancy Grey \n 3546 Redwood Ave',
+          // name: 'Nancy Grey',
+          // shippingAddress: '3546 Redwood Ave'
         }
       },
       {
@@ -87,8 +93,9 @@ export function fetchUserPurchases() {
         orderDate: new Date().toDateString(),
         creditCard: '-0000',
         user: {
-          name: 'Thomas Ash',
-          shippingAddress: '48952 Birch Ash Drive'
+          name: 'Thomas Ash \n 48952 Birch Ash Drive',
+          // name: 'Thomas Ash',
+          // shippingAddress: '48952 Birch Ash Drive'
         }
       },
       {
@@ -98,8 +105,9 @@ export function fetchUserPurchases() {
         orderDate: new Date().toDateString(),
         creditCard: '-0000',
         user: {
-          name: 'Jennifer Green',
-          shippingAddress: '45698 Cherry Maple Ave'
+          name: 'Jennifer Green \n 45698 Cherry Maple Ave',
+          // name: 'Jennifer Green',
+          // shippingAddress: '45698 Cherry Maple Ave'
         }
       }
     ]
