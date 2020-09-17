@@ -46,4 +46,34 @@
   button:hover {
     cursor: pointer;
   }
+
+}
+
+.form-button-long-gray {
+  display: grid;
+  grid-gap: 6.5px;
+
+  &__button {
+    height: 38px;
+    width: 243px;
+    border: none;
+    border-radius: 20px;
+    background-color: #999999;
+    font-family: 'Open Sans';
+
+    font-size: 16px;
+    color: white;
+
+    &:focus {
+      outline: none;
+    }
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  &__label {
+    padding-left: 15px;
+    font-size: 14px;
+  }
 }
