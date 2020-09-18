@@ -16,8 +16,8 @@ class PurchaseDetail extends Component {
     const { className, orderNumber, orderDate, user, total, creditCard } = this.props;
     const { name, shippingAddress } = user;
     // const nameAddress = `${name}  ${shippingAddress}`;
-    let nameAddress = name.split('\n').map((address) => {
-      return <p>{this.props.address}</p>
+    let nameAddress = name.split('\n').map((address, index) => {
+      return <p key={index}>{address}</p>
     });
 
     return (
